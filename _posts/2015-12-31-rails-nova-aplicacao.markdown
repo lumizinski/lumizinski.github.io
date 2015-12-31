@@ -5,7 +5,7 @@ date: 2015-12-31 09:00:00 -0200
 categories: Rails
 ---
 **Para criar uma nova aplicação**
-{% highlight shell %}
+{% highlight bash %}
   $ rails new app_nome
 {% endhighlight %}
 
@@ -14,7 +14,7 @@ categories: Rails
 Este esqueleto criará o model, controllers e views para incluir, editar e listar todos os objetos. 
 
 O nome do objeto criado é dado no singular e o Rails se encarrega de criar uma tabela do banco de dados com o nome  no plurar (tabela objetos).
-{% highlight shell %}
+{% highlight bash %}
   $ rails generate scaffold Objeto nome:string descricao:text preco:decimal
 
 {% endhighlight %}
@@ -38,7 +38,7 @@ Tipos de dados disponíveis:
 {% endhighlight %}
 
 Após gerar o "scaffold", é preciso aplicar as migrações para o banco de dados de desenvolvimento:
-{% highlight shell %}
+{% highlight bash %}
   $ rake db:migrate
 {% endhighlight %}
 
@@ -51,7 +51,7 @@ Aumentando o campo descricao na view.
 {% endhighlight %}
 
 Para rodar os testes de models e controllers
-{% highlight shell %}
+{% highlight bash %}
   $ rake test
 {% endhighlight %}
 
