@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Criando uma nova aplicação em Rails"
-date:   2015-11-25 09:36:10 -0200
+date: 2015-12-31 09:00:00 -0200
 categories: Rails
 ---
 **Para criar uma nova aplicação**
