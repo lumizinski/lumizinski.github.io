@@ -105,5 +105,3 @@ Como o Rails carrega todas as folhas de estilo ao mesmo tempo, uma boa maneira d
   $ rake db:rollback 
 {% endhighlight %}
 
-
-[comment]: pagina 
